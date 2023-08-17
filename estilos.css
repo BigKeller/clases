@@ -6,6 +6,7 @@ div{
     width: 100px;
     margin: 5px;
     opacity: 1;
+    text-align: center;
 }
 #transparente{
     display : inline-block;
@@ -16,6 +17,7 @@ div{
     visibility: hidden;
     margin: 5px;
     opacity: 0.5;
+    text-align: center;
 }
 #bloque2{
     display : inline-block;
@@ -25,6 +27,8 @@ div{
     width: 100px;
     margin: 5px;
     opacity: 0.5;
+    text-align: center;
+    text-decoration: underline;
 }
 
 #black{
@@ -34,4 +38,6 @@ div{
     width: 100px;
     margin: 5px;
     opacity: 0.1;
+    text-align: center;
+    text-transform: uppercase;
 }
