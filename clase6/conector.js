@@ -7,3 +7,4 @@ function cambiocolor(){
 function reset(){
     document.getElementById("azul").style.backgroundColor="red";
 }
+
