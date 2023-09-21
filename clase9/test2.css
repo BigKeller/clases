@@ -1,0 +1,77 @@
+.general{
+height: 100%;
+width: 100%;
+display: flex;
+align-items: center;
+background-color: white;
+}
+
+.imagen{
+height: 100%;
+width: 50%;
+margin-top: 25%;
+margin-bottom: 25%;
+}
+.botones{
+font-family: 'Kanit', sans-serif;  
+
+}
+#X{
+    height: 50%;
+    width: 50%;
+    margin-left: 20%;
+}
+.titulos{
+height: 100%;
+width: 100%;
+padding: 5%;
+font-family: 'Kanit', sans-serif;
+}
+.title{
+    font-size: 60px;
+    font-family: 'Kanit', sans-serif;
+}
+.unete{
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+}
+#crear_cuenta{
+    background-color: rgb(11, 146, 224);
+    width: 30%;
+    font-family: 'Kanit', sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#google{
+    width: 35%;
+    font-family: 'Kanit', sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#apple{
+    width: 35%;
+    font-family: 'Kanit', sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#crear_cuenta{
+    width: 30%;
+    font-family: 'Kanit', sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+}
+#Iniciar_sesion{
+    width: 30%;
+    font-family: 'Kanit', sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: blue;
+}
+.o{
+    padding-left: 15%;
+}
+.terminos{
+font-size: 13px;
+width: 35%;
+}
