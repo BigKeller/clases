@@ -21,13 +21,13 @@ $respuesta = mysqli_query($conexion, $consulta);
     <div class="container p-5">
         <div class="row">
             <div class="col">
-                <form action="guardar.php">
+                <form action="guardar.php" method="POST">
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1">nombre</span>
-                        <input type="text" class="form-control" placeholder="peugeot">
+                        <input type="text" class="form-control" name="nombre" placeholder="peugeot">
                     </div>
                     <div class="input-group mb-3">
-                        <select class="form-select" name >
+                        <select class="form-select" name="origen">
                             <option selected>origen</option>
                             <option value="1">japon</option>
                             <option value="2">francia</option>
@@ -36,9 +36,9 @@ $respuesta = mysqli_query($conexion, $consulta);
                     </div>
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1">logo</span>
-                        <input type="text" class="form-control" placeholder="../logo_peugeot.png">
+                        <input type="text" class="form-control" name="logo" placeholder="../logo_peugeot.png">
                     </div>
-                    <button type="button" class="btn btn-danger">insertar</button>
+                    <button type="submit" class="btn btn-danger">submit</button>
                 </form>
             </div>
             <div class="col">
